@@ -9,4 +9,9 @@ p {
     text-align: center;
     font-size: 60px;
     color: rgb(240, 89, 114);
-  }
+	}
+	.image{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+	}

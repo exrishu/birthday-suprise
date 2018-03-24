@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("mar 25, 2018 00:05:00").getTime();
+var countDownDate = new Date("mar 24, 2018 20:42:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -23,6 +23,9 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-}, 1000);
+        document.getElementById("demo").innerHTML = " HAPPY BIRTHDAY BAWA!!";
+        document.getElementById("text").innerHTML = " CLICK ON IMAGE FOR ONE MORE SUPRISE";
+          var m = document.getElementsByClassName("image");
+          m[0].src = "https://media.giphy.com/media/WvRXC60RyataCZXr4P/giphy.gif";
+      }
+    }, 1000); 
